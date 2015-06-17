@@ -9,7 +9,7 @@ Installation instructions:
 1. Put search.cgi in path nagios/sbin.
 
 2. Add the following codes to anywhere you like in nagios/share/side.php:
-
+```
 <div class="navbarsearch"> 
 <form method="get" action="<?php echo $cfg["cgi_base_url"];?>/search.cgi" target="<?php echo $link_target;?>"> 
 <fieldset> 
@@ -29,3 +29,4 @@ Installation instructions:
 </fieldset> 
 </form> 
 </div>
+```
